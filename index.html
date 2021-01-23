@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WeatherMarko</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="manifest.json">
+    <link rel="shortcut icon" href="/media/logo.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/media/logo.png">
+  </head>
+  <body>
+    <div
+      style="display: flex; align-items: center; justify-content: center"
+      class="temperature-div">
+      <h1 class="temperature-now"></h1>
+      <span class="temperature-span">C</span>
+    </div>
+    <h1 class="weather-description"></h1>
+    <h1 class="locationTimeZone"></h1>
+    <canvas class="icon" width="128px" height="128px"></canvas>
+  </body>
+  <script src="app.js"></script>
+  <script src="index.js"></script>
+  <script src="skycons.js"></script>
+</html>

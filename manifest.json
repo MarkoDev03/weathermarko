@@ -1,0 +1,28 @@
+{
+    "name":"WeatherMarko",
+    "short_name":"WeatherMarko",
+    "start_url":".",
+    "background_color":"#navy",
+    "theme_color":"#navy",
+    "display":"standalone",
+    "icons":[
+        {
+            "src":"media/logo192.png",
+            "sizes":"192x192",
+            "type":"image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src":"media/logo512.png",
+            "sizes":"512x512",
+            "type":"image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src":"media/logo144.png",
+            "sizes":"144x144",
+            "type":"image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}
