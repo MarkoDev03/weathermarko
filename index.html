@@ -8,10 +8,40 @@
     <link rel="manifest" href="manifest.json">
     <link rel="shortcut icon" href="/media/logo.png" type="image/x-icon">
     <link rel="apple-touch-icon" href="/media/logo.png">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
   </head>
   <body>
+   
+    <div class="setting"><i class="fas fa-cog"></i></div>
+
+
+    <div class="headline-div"><p class="headline-weather">weather</p></div>
+
+    <div class="weather-information">
+
+      <div class="weather-location">
+
+        
+      </div>
+
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+      <div>Country: <span id="country"></span></div>
+        <div>State: <span id="state"></span></div>
+          <div>City: <span id="city"></span></div>
+            <div>Latitude: <span id="latitude"></span></div>
+              <div>Longitude: <span id="longitude"></span></div>
+                <div>IP: <span id="ip"></span></div>
+
+
+      <div class="weather-info"></div>
+
+      <div class="icon-of-weather"></div>
+
+    </div>
+   
     <div
-      style="display: flex; align-items: center; justify-content: center"
       class="temperature-div">
       <h1 class="temperature-now"></h1>
       <span class="temperature-span">C</span>
@@ -21,6 +51,5 @@
     <canvas class="icon" width="128px" height="128px"></canvas>
   </body>
   <script src="app.js"></script>
-  <script src="index.js"></script>
   <script src="skycons.js"></script>
 </html>
